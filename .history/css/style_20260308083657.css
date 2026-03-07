@@ -121,7 +121,6 @@ h2{
     color:aliceblue;
     transition: transform 0.2s, background 0.2s;
     text-align:center;
-    height:100%;
 }
 
 
@@ -133,7 +132,6 @@ h2{
 .card:hover{
     background:#333;
     transform:translateY(-3px);
-    box-shadow:0 6px 18px rgba(0,0,0,0.4);
 }
 
 .card-icon{
