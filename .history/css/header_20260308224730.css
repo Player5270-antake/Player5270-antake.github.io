@@ -32,7 +32,7 @@ nav{
     display:inline-block;
 }
 
-.header-nav a:hover{
+nav a:hover{
     background-color:#004d2b;
     transform:translateY(-2px);
 }

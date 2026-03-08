@@ -48,29 +48,28 @@ footer{
 }
 
 /*パンくずリスト*/
-.breadcrumb {
-    font-size: 14px;
-    padding: 8px 12px;
-    background: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-}  
-
-.breadcrumb a {
-    text-decoration: none;
-    color: #3366cc;
-}
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
-.breadcrumb .sep {
-    margin: 0 6px;
-    color: #777;
-}
-
-.breadcrumb .current {
-    color: #555;
-    font-weight: bold;
-}
+.breadcrumb{
+    background:#2a2a2a;
+    border:1px solid #333;
+    border-radius:6px;
+    
+    padding:6px 10px;
+    margin:10px 0 20px 0;
+    
+    font-size:14px;
+    color:#ccc;
+    }
+    
+    .breadcrumb a{
+    color:#6aa9ff;
+    text-decoration:none;
+    }
+    
+    .breadcrumb a:hover{
+    text-decoration:underline;
+    }
+    
+    .breadcrumb span{
+    margin:0 6px;
+    color:#888;
+    }

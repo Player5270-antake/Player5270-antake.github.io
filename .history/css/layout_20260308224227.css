@@ -54,23 +54,23 @@ footer{
     background: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 6px;
-}  
-
-.breadcrumb a {
+  }
+  
+  .breadcrumb a {
     text-decoration: none;
     color: #3366cc;
-}
-
-.breadcrumb a:hover {
+  }
+  
+  .breadcrumb a:hover {
     text-decoration: underline;
-}
-
-.breadcrumb .sep {
+  }
+  
+  .breadcrumb .sep {
     margin: 0 6px;
     color: #777;
-}
-
-.breadcrumb .current {
+  }
+  
+  .breadcrumb .current {
     color: #555;
     font-weight: bold;
-}
+  }
