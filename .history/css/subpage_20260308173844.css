@@ -1,0 +1,117 @@
+/* ヘッダー固定なし */
+header{
+    position:static;
+}
+
+/* 記事 */
+.article{
+    max-width:800px;
+    line-height:1.7;
+}
+
+/* ページレイアウト */
+.page-layout{
+    display:grid;
+    grid-template-columns:1fr 250px;
+    gap:40px;
+}
+
+/* 目次 */
+.toc-toggle{
+    position:fixed;
+    top:20px;
+    left:20px;
+    width:40px;
+    height:40px;
+    background:#262626;
+    border:1px solid #333;
+    border-radius:8px;
+    cursor:pointer;
+    display:none;
+    z-index:2000;
+    }
+    
+    .toc-toggle span{
+    display:block;
+    width:20px;
+    height:2px;
+    background:white;
+    margin:6px auto;
+}
+
+.toc{
+    position:fixed;
+    top:80px;
+    left:20px;
+    background:#262626;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:12px;
+    display:none;
+    min-width:180px;
+}
+
+.toc ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.toc a{
+    display:block;
+    padding:5px;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.toc a:hover{
+    background:#333;
+}
+
+.toc a.active{
+    background:#333;
+    color:#4da3ff;
+    font-weight:bold;
+}
+
+.toc.open{
+    display:block;
+}
+
+/* infobox */
+.infobox{
+    float:right;
+    width:260px;
+    background:#262626;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+    margin:0 0 20px 20px;
+    font-size:0.95em;
+}
+
+.infobox img{
+    width:100%;
+    border-radius:6px;
+    margin-bottom:10px;
+}
+
+/* スマホ */
+@media (max-width:900px){
+
+    .page-layout{
+        grid-template-columns:1fr;
+    }
+
+    .toc{
+        position:static;
+    }
+
+    .infobox{
+        float:none;
+        width:100%;
+        margin:20px 0;
+    }
+
+}

@@ -1,0 +1,38 @@
+/* ヘッダー固定しない */
+header{
+    position:static;
+}
+
+/* ページレイアウト */
+.page-layout{
+    display:grid;
+    grid-template-columns:1fr 250px;
+    gap:40px;
+}
+
+.article{
+    max-width:800px;
+    line-height:1.7;
+}
+
+/* 目次 */
+.toc{
+    position:fixed;
+    top:70px;
+    right:20px;
+    background:#262626;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+}
+
+/* infobox */
+.infobox{
+    float:right;
+    width:260px;
+    background:#262626;
+    border:1px solid #333;
+    border-radius:10px;
+    padding:15px;
+    margin:0 0 20px 20px;
+}

@@ -1,0 +1,38 @@
+header{
+    background:linear-gradient(135deg,#00a960,#007a45);
+    padding:25px;
+    text-align:center;
+    z-index:1000;
+    box-shadow:0 2px 8px rgba(0,0,0,0.4);
+}
+
+header h1{
+    margin-bottom:5px;
+    font-size:32px;
+}
+
+header p{
+    margin-top:0;
+    opacity:0.85;
+}
+
+/* ナビ */
+nav{
+    margin-top:18px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background-color:#005f34;
+    padding:8px 18px;
+    margin:0 6px;
+    border-radius:20px;
+    font-weight:bold;
+    display:inline-block;
+}
+
+nav a:hover{
+    background-color:#004d2b;
+    transform:translateY(-2px);
+}
