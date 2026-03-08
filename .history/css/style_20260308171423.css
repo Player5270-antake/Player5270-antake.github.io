@@ -10,10 +10,6 @@ body{
     margin:0;
 }
 
-.subpage header{
-    position:static;
-}
-
 html{
     scroll-behavior:smooth;
 }
@@ -322,10 +318,8 @@ footer{
 }
 
 .progress{
-    height:100%;
-    width:0%;
+    height:100%;width:0%;
     background:#4a90e2;
-    transition:width 0.1s;
 }
 
 /*スマホ向け*/

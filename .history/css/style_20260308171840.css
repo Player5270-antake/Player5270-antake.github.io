@@ -12,7 +12,7 @@ body{
 
 .subpage header{
     position:static;
-}
+    }
 
 html{
     scroll-behavior:smooth;
