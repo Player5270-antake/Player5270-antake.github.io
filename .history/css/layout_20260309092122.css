@@ -55,8 +55,6 @@ footer{
     background: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 6px;
-    border-bottom:1px solid #ccc;
-    padding-bottom:8px;
 }  
 
 .breadcrumb a {

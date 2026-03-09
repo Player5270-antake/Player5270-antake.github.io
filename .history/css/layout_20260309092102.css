@@ -1,8 +1,8 @@
 /* メイン */
 main{
     max-width:900px;
-    margin:30px auto;
-    padding:25px;
+    margin:auto;
+    padding:20px;
     border-top:3px solid #666;
     background-color:#1f1f1f;
 }
@@ -55,8 +55,6 @@ footer{
     background: #f8f9fa;
     border: 1px solid #ddd;
     border-radius: 6px;
-    border-bottom:1px solid #ccc;
-    padding-bottom:8px;
 }  
 
 .breadcrumb a {
