@@ -59,34 +59,3 @@ section{
     text-decoration:none;
 }
 
-/*スマホ対応*/
-@media (max-width: 600px){
-
-    header{
-        padding:15px 10px;
-    }
-    
-    header h1{
-        font-size:22px;
-    }
-    
-    .tagline{
-        font-size:12px;
-    }
-    
-    .header-nav a{
-        display:block;
-        margin:8px auto;
-        width:120px;
-    }
-    
-    main{
-        padding:15px;
-    }
-    
-    .breadcrumb{
-        font-size:12px;
-        padding:8px;
-    }
-    
-    }
