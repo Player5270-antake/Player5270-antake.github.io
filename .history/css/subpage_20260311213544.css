@@ -117,29 +117,18 @@ header{
 }
 
 /* 表 */
-.ipa{
-    border-collapse:collapse;
-    font-family: "Times New Roman", serif;
-    font-size:14px;
+table.ipa{
+    border-collapse: collapse;
+    font-family: serif;
     }
     
     .ipa th,
     .ipa td{
-    border:1px solid #444;
+    border:1px solid black;
     padding:6px;
     text-align:center;
-    min-width:40px;
     }
     
-    .ipa thead th{
-    background:#f0f0f0;
-    }
-    
-    .ipa tbody th{
-    background:#f7f7f7;
-    font-weight:normal;
-    }
-    
-    .ipa i{
-    color:#555;
-    }
+    .ipa th{
+    background:#f3f3f3;
+}
